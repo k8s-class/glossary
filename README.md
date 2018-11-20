@@ -55,7 +55,7 @@ desired state.
 
 The API server is a key component and serves the Kubernetes API using JSON over HTTP, which provides both the internal and external interface to Kubernetes.
 The API server processes and validates REST requests and updates state of the API objects in etcd, thereby allowing clients to configure workloads
-and containers across Worker nodes.[24]
+and containers across Worker nodes.
 
 # Scheduler
 The scheduler is the pluggable component that selects which node an unscheduled pod (the basic entity managed by the scheduler) runs on, based on resource availability. Scheduler tracks resource use on each node to ensure that workload is not scheduled in excess of available resources.
